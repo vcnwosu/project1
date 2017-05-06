@@ -1,0 +1,69 @@
+/*** spacing | formatting ***/
+main > section:nth-child(3) {
+	margin-top: 20px;
+}
+
+/*** default table styling ***/
+#table {
+	width: 380px;
+	display: inline-block;
+}
+#table > * {
+	display: flex;
+}
+#table > * span:first-child {
+	border-left: none;
+}
+#table header {
+	background: #778899;
+	border-bottom: 1px solid white;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+#table span {
+	width: 33%;
+	padding: 10px 5px;
+	border-left: 1px solid white;
+}
+#table div {
+	background: #b0c4de;
+	border-bottom: 1px solid white;
+}
+
+/*** styling for the div boxes ***/
+.box {
+	width: 30%;
+	height: 100px;	
+	display: inline-block;
+	padding: 10px;
+	z-index: -1;
+	vertical-align: top;
+}
+#box1 {
+	background: #40e0d0;
+}
+#box1 header {
+	background: #d8bfd8;
+}
+#box1 div {
+	background: #fffafa;
+}
+#box2 {
+	background: #f4a460;
+}
+#box2 header {
+	background: #006400;
+}
+#box2 div {
+	background: #db7093;
+}
+#box3 {
+	background: #bdb76b;
+}
+#box3 header {
+	background: #663399;
+}
+box3 div {
+	background: #d8bfd8;
+}
